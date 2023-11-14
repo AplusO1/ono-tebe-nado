@@ -3,13 +3,15 @@
 }
 
 body {
-  background-color: #FFF;
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
   font-family: Raleway, sans-serif;
-  max-width: 1440px;
-  margin: 0 auto;
+  background-color: gray;
 }
 
 .header {
+  max-width: 1440px;
   display: flex;
   justify-content: space-between;
   padding: 94px 50px;
@@ -30,7 +32,7 @@ body {
 .header_logo-image {
   width: 135px;
   height: 106px;
-  margin-left: -68px;
+  margin-left: -67px;
   margin-top: -3px;
 }
 
