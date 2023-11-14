@@ -22,6 +22,8 @@ body {
 
 
 .header_logo {
+  display: flex;
+  justify-content: start;
   width: 148px;
   height: 105px;
 }
@@ -29,10 +31,11 @@ body {
 .header_logo-image {
   background-image: url(../images/logo-black.svg);
   background-repeat: no-repeat;
-  width: 148px;
-  height: 105px;
+  background-size: cover;
+  width: 135px;
+  height: 106px;
   margin-left: -68px;
-  margin-top: -3px;
+  margin-top: -4px;
 }
 
 .header_menu-list {
