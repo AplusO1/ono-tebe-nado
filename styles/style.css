@@ -1,6 +1,6 @@
 body {
   max-width: 1440px;
-  background-color: #FFF;
+  background-color: grey;
   margin:0 auto;
 }
 
@@ -370,8 +370,8 @@ body {
   flex-direction: column;
   list-style: none;
   text-align: center;
-  padding-top: 25px;
-  padding-left: 100px;
+  padding-top: 24px;
+  padding-left: 103px;
 }
 
 .footer_menu-list-item-main {
@@ -380,8 +380,9 @@ body {
 
 .footer_social-list {
   display: flex;
+  flex-direction: row-reverse;
   padding-top: 13px;
-  margin-right: 50px;
+  margin-right: 338px;
 }
 
 .footer_social-link {
@@ -389,6 +390,6 @@ body {
 }
 
 .footer_social-icon {
-  width: 240px;
+  width: 48px;
   height: 48px;
 }
