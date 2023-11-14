@@ -3,11 +3,9 @@
 }
 
 body {
-  background-color: gray;
+  background-color: #FFF;
   font-family: Raleway, sans-serif;
   max-width: 1440px;
-  max-height: 2844px;
-  margin: auto;
 }
 
 .header {
