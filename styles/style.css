@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #FFF;
+  background-color: gray;
   font-family: Raleway, sans-serif;
   max-width: 1440px;
   max-height: 2844px;
@@ -222,7 +222,7 @@ body {
 .card_title {
   display: flex;
   flex-grow: 1;
-  top: 18px;
+  top: 17px;
   width: 350px;
   max-height: 80px;
   position: relative;
