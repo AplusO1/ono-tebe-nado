@@ -29,13 +29,10 @@ body {
 }
 
 .header_logo-image {
-  background-image: url(../images/logo-black.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 135px;
   height: 106px;
   margin-left: -68px;
-  margin-top: -4px;
+  margin-top: -3px;
 }
 
 .header_menu-list {
