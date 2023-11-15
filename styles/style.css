@@ -18,18 +18,15 @@ body {
   text-underline-offset: 4px;
 }
 
-.header__menu {
+.general__menu {
   display: flex;
   gap: 32px;
 }
 
-.header__links-list {
+.general__links_list {
+  display: flex;
   list-style-type: circle;
-}
-
-
-.header__links-list-item-main {
-  list-style-type: none;
+  gap: 33px;
 }
 
 .header__logo {
@@ -37,11 +34,11 @@ body {
   justify-self: center;
 }
 
-.header__logo-image {
+.header__logo_image {
   max-width: 140px;
 }
 
-.header__address {
+.general__address {
   display: flex;
   flex-direction: column;
   font-style: normal;
@@ -70,7 +67,7 @@ body {
   z-index: 1;
 }
 
-.cover__description-text {
+.cover__description_text {
   display: flex;
   flex-direction: column;
   color: #fff;
@@ -97,7 +94,7 @@ body {
   margin-top: 1px;
 }
 
-.letter__spacing-extended {
+.letter__spacing_extended {
   letter-spacing: 60px;
 }
 
@@ -107,13 +104,15 @@ body {
   margin-top: -5px;
 }
 
-.no__letter-spacing {
+.no__letter_spacing {
   letter-spacing: 0;
 }
 
-.aligned__text-auction {
+.aligned__text_auction {
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: 1;
   color: #fff;
   word-spacing: 17px;
   font-family: Raleway, sans-serif;
@@ -121,30 +120,29 @@ body {
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: 132px;
-  margin-left: 32px;
+  top: 141px;
+  left: 16px;
 }
 
-.aligned__text_auction-button {
+.aligned__text_auction_button {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
   font-family: Raleway, sans-serif;
   color: #fff;
-  border: none;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
   background: transparent;
-}
-
-.aligned__text_auction-button-item {
-  display: flex;
-  justify-content: center;
-  margin-left: 1083px;
   padding: 12px;
   width: 258px;
-  margin-top: -48px;
-  text-decoration: none;
   border: 1px solid;
+  margin-left: auto;
+  top: 102px;
+  right: 50px;
 }
 
 .lots {
@@ -164,13 +162,13 @@ body {
   padding: 0 0 27px 40px;
 }
 
-.lots__card-list {
+.lots__card_list {
   display: flex;
   flex-wrap: wrap;
   gap: 22px;
 }
 
-.lots__card-list-item {
+.lots__card_list-item {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
@@ -199,15 +197,15 @@ body {
   background-repeat: no-repeat;
 }
 
-.card__type-film {
+.card__type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.card__type-book {
+.card__type_book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.card__type-picture {
+.card__type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -245,7 +243,8 @@ body {
   line-height: 120%; /* 24px */
 }
 
-.lots__look-more-link {
+.lots__look_more-link {
+  display: flex;
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 20px;
@@ -254,7 +253,8 @@ body {
   line-height: normal;
   text-decoration: underline;
   text-underline-offset: 5px;
-  padding: 30px 0 0 40px;
+  padding-top: 30px;
+  padding-left: 40px;
 }
 
 .about {
@@ -266,14 +266,14 @@ body {
   padding-left: 150px;
 }
 
-.about__column-logo {
+.about__column_logo {
   display: flex;
   width: 430px;
   height: 450px;
 }
 
 
-.about__column-text {
+.about__column_text {
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -281,6 +281,8 @@ body {
 }
 
 .about__title {
+  position: relative;
+  bottom: 101px;
   color: #000;
   font-size: 40px;
   font-style: normal;
@@ -288,7 +290,7 @@ body {
   line-height: normal;
   text-transform: uppercase;
 }
-.about-logo {
+.about__logo {
   background-color: black;
   border-radius: 50%;
   background-position: center;
@@ -300,9 +302,6 @@ body {
 }
 
 .about__logo-image {
-  background-image: url(../images/logo-white.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   width: 150px;
   height: 116px;
   margin-right: 10px;
@@ -322,7 +321,7 @@ body {
   padding-top: 101px;
 }
 
-.about__auction-text {
+.about__auction_text {
   line-height: 23px;
   padding-bottom: 30px;
 }
@@ -342,23 +341,17 @@ body {
 }
 
 .footer__address {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  font-style: normal;
-  line-height: 1.35;
-  white-space: nowrap;
-  justify-self: end;
   padding-top: 60px;
 }
 
-.footer__address-list {
+.footer__address_list {
   list-style: none;
 }
 
-.footer__menu-list {
+.footer__menu_list {
   display: flex;
+  list-style-type: circle;
+  gap: 0px;
   flex-direction: column;
   list-style: none;
   text-align: center;
@@ -366,22 +359,22 @@ body {
   padding-left: 103px;
 }
 
-.footer__menu-list-item-main {
+.footer__menu-list_item-main {
   list-style: none;
 }
 
-.footer__social-list {
+.footer__social_list {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 13px;
   margin-right: 338px;
 }
 
-.footer__social-link {
+.footer__social_link {
   margin-right: -145px;
 }
 
-.footer__social-icon {
+.footer__social_icon {
   width: 48px;
   height: 48px;
 }
