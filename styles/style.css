@@ -287,12 +287,12 @@ body {
 
 .about__column_logo {
   display: flex;
-  width: 430px;
-  height: 450px;
   background-color: #000;
   border-radius: 50%;
   border: 40px solid #000;
   align-items: center;
+  width: 240px;
+  height: 240px;
 }
 
 .about__logo-image {
