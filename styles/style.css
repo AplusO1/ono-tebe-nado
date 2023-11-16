@@ -102,7 +102,7 @@ body {
 
 .aligned__text-right {
   display: flex;
-  margin-left: auto;
+  justify-content: end;
   line-height: 108px;
 }
 
