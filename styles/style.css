@@ -291,6 +291,7 @@ body {
   line-height: normal;
   text-transform: uppercase;
 }
+
 .about__column_logo{
   background-color: #000;
   border-radius: 50%;
@@ -306,7 +307,6 @@ body {
   margin-right: 10px;
   margin-bottom: 2px;
 }
-
 
 .about__text {
   display: flex;
