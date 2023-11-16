@@ -267,13 +267,6 @@ body {
   padding-left: 150px;
 }
 
-.about__column_logo {
-  display: flex;
-  width: 430px;
-  height: 450px;
-}
-
-
 .about__column_text {
   display: flex;
   flex-direction: column;
@@ -293,6 +286,9 @@ body {
 }
 
 .about__column_logo {
+  display: flex;
+  width: 430px;
+  height: 450px;
   background-color: #000;
   border-radius: 50%;
   border: 40px solid #000;
