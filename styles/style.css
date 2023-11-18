@@ -1,6 +1,7 @@
 body {
   max-width: 1440px;
   margin:0 auto;
+  background-color: grey;
 }
 
 
@@ -17,7 +18,7 @@ body {
   text-underline-offset: 4px;
 }
 
-.header__menu {
+.menu {
   display: flex;
   gap: 33px;
 }
@@ -42,7 +43,7 @@ body {
   max-width: 140px;
 }
 
-.header__address {
+.address {
   display: flex;
   flex-direction: column;
   font-style: normal;
